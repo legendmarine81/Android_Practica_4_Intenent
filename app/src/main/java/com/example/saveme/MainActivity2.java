@@ -38,4 +38,12 @@ public class MainActivity2 extends AppCompatActivity {
         Intent in = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:8711158601"));
         startActivity(in);
     }
+
+    public void comeBack(View view)
+    {
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+    }
+
+
 }
